@@ -3,7 +3,7 @@
   "id": "nomoreblur",
   "version": "${version}",
   "name": "NoMoreBlur",
-  "description": "Removes the menu's blur effect completely when the blurriness is set to 0%.",
+  "description": "Removes the menu's blur rendering completely when the blurriness is set to 0%.",
   "authors": [
     {
       "name": "XIAYM-gh",
