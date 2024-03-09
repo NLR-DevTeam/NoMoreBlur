@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nomoreblur",
+  "version": "${version}",
+  "name": "NoMoreBlur",
+  "description": "Removes the menu's blur effect completely when the blurriness is set to 0%.",
+  "authors": [
+    {
+      "name": "XIAYM-gh",
+      "contact": {
+        "homepage": "https://github.com/XIAYM-gh"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/no-more-blur",
+    "issues": "https://github.com/NLR-DevTeam/NoMoreBlur/issues",
+    "sources": "https://github.com/NLR-DevTeam/NoMoreBlur"
+  },
+  "license": "MIT",
+  "icon": "assets/nomoreblur/icon.png",
+  "environment": "client",
+  "mixins": [
+    "nomoreblur.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.5-alpha.24.10.a"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
